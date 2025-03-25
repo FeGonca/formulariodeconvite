@@ -1,0 +1,27 @@
+input, textarea {
+    appearance: none;
+    width: 100%;
+    border-radius: 0.5rem;
+    border: 1px solid transparent;
+    outline: 0.1rem solid var(--input-stroke);
+
+    padding: 0.75rem 1rem;
+    background-color: var(--input-base);
+}
+
+label {
+    font: var(--text-body-sm);
+    color: var(--text-body);
+
+    display: block;
+    margin-bottom: 0.75rem;
+}
+
+input:focus {
+    outline: 0.1rem solid var(--brand-light);
+    outline-offset: 0.1px;
+}
+
+.flex {
+    gap: 1rem;
+}

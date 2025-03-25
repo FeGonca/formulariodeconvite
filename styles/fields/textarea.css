@@ -1,0 +1,5 @@
+textarea {
+    background-color: var(--input-stroke);
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
